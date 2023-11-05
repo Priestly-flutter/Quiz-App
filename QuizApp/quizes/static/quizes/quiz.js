@@ -3,11 +3,11 @@ const url = window.location.href
 
 $.ajax({
     type: 'GET',
-    url: '${data}',
+    url: '${url}data',
 
     success:function(response){
         console.log(response)
-        console.log('hi')
+        
     },
     error:function(error){
         console.log(error)
